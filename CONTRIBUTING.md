@@ -27,7 +27,7 @@ Everyone taking part in this project is expected to follow our [Code of Conduct]
 
 ## Development setup
 
-Requirements: **Node.js ≥ 18**, npm, and **Docker** (for sandboxes and Docker Compose).
+Requirements: **Node.js ≥ 22**, npm, and **Docker** (for sandboxes and Docker Compose).
 
 ```bash
 git clone https://github.com/sriroopchakraborty1991-lang/Golem-MCP-secure.git

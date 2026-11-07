@@ -13,7 +13,7 @@ Register MCP servers · import tool manifests · run static + drift scans · exp
   <img alt="Status" src="https://img.shields.io/badge/status-MVP-20E3D2?style=for-the-badge&labelColor=0B1020" />
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0%20OR%20GPL--3.0-7C5CFF?style=for-the-badge&labelColor=0B1020" /></a>
   <a href="CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-FFB020?style=for-the-badge&labelColor=0B1020" /></a>
-  <img alt="Node" src="https://img.shields.io/badge/node-%E2%89%A518-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0B1020" />
+  <img alt="Node" src="https://img.shields.io/badge/node-%E2%89%A522-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0B1020" />
 </p>
 
 <p>
@@ -114,7 +114,7 @@ Register MCP servers · import tool manifests · run static + drift scans · exp
 | | Technology | Role |
 |:-:|---|---|
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" /> | **TypeScript** | Language for frontend and backend |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" /> | **Node.js ≥ 18** | Backend runtime (npm workspaces monorepo) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" /> | **Node.js ≥ 22** | Backend runtime (npm workspaces monorepo) |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastify/fastify-original.svg" width="36" /> | **Fastify 5** | HTTP API, `@fastify/jwt`, `@fastify/cors` |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" /> | **React 18** | UI with React Router 6 |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="36" /> | **Vite 6** | Frontend dev server, `/api` proxy and build |
@@ -228,7 +228,7 @@ sequenceDiagram
 
 ### Prerequisites
 
-- **Node.js ≥ 18** and npm
+- **Node.js ≥ 22** and npm
 - **Docker** (+ Docker Compose) — required for Option A and for sandbox execution
 
 ### Option A — Docker Compose *(recommended)*
