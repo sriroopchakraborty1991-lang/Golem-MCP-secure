@@ -10,7 +10,8 @@ Register MCP servers · import tool manifests · run static + drift scans · exp
 
 <p>
   <img alt="Status" src="https://img.shields.io/badge/status-MVP-20E3D2?style=for-the-badge&labelColor=0B1020" />
-  <img alt="License" src="https://img.shields.io/badge/license-not%20yet%20specified-lightgrey?style=for-the-badge&labelColor=0B1020" />
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0%20OR%20GPL--3.0-7C5CFF?style=for-the-badge&labelColor=0B1020" /></a>
+  <a href="CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-FFB020?style=for-the-badge&labelColor=0B1020" /></a>
   <img alt="Node" src="https://img.shields.io/badge/node-%E2%89%A518-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0B1020" />
 </p>
 
@@ -481,6 +482,11 @@ Golem-MCP-secure/
 ├── docker-compose.yml          # backend + frontend dev stack
 ├── package.json                # npm workspaces root
 ├── SECURITY.md
+├── CONTRIBUTING.md
+├── LICENSE                     # dual-license notice
+├── LICENSE-APACHE
+├── LICENSE-GPL
+├── .github/ISSUE_TEMPLATE/     # bug, feature, scanner-finding templates
 └── packages/
     ├── backend/                # Fastify + TypeScript API
     │   ├── Dockerfile
@@ -549,14 +555,14 @@ Backend test suites: `mcp`, `monitoring`, `password`, `runner-alert`, `scoring`.
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome! Please read the [**Contributing Guide**](CONTRIBUTING.md) for setup, code style and how to add a scanner rule.
 
-1. Fork the repository and create a branch: `git checkout -b feature/my-change`
+1. Fork the repository and create a branch: `git checkout -b feat/my-change`
 2. Install dependencies: `npm install`
 3. Make your change and run `npm run lint` and `npm test`
 4. Commit with a clear message and open a Pull Request describing **what** and **why**
 
-When adding a new scanner rule, include a test in `packages/backend/tests/mcp.test.ts` and a clear recommendation text.
+Found a bug, have an idea, or spotted a scanner false positive? [**Open an issue**](https://github.com/sriroopchakraborty1991-lang/Golem-MCP-secure/issues/new/choose) using one of the templates.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -606,7 +612,14 @@ No. Scans run on the tool manifest you import, plus the server metadata you regi
 - **Do not** expose the backend publicly while the Docker socket is mounted.
 - SSE uses a query-string token for simplicity — treat the UI as trusted/local.
 
-**License:** not yet specified. Add a `LICENSE` file to define how others may use this project.
+### License
+
+Copyright © 2026 Sriroop Chakraborty. Golem is **dual-licensed** — you may use it under either license, at your option:
+
+- [Apache License 2.0](LICENSE-APACHE)
+- [GNU General Public License v3.0](LICENSE-GPL)
+
+See [LICENSE](LICENSE) for details. `SPDX-License-Identifier: Apache-2.0 OR GPL-3.0-only`
 
 <div align="center">
 

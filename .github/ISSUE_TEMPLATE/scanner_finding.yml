@@ -1,0 +1,35 @@
+name: 🎯 Scanner finding (false positive / missed risk)
+description: A scan flagged something it shouldn't have, or missed a real risk
+title: "[Scanner]: "
+labels: ["scanner", "triage"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - False positive (flagged, but not a risk)
+        - False negative (risk not flagged)
+        - Wrong severity
+        - Unclear recommendation
+    validations:
+      required: true
+  - type: input
+    id: check
+    attributes:
+      label: Finding title or category
+      placeholder: "e.g. Potential SSRF risk: URL/host parameter lacks constraints"
+  - type: textarea
+    id: manifest
+    attributes:
+      label: Minimal tool manifest
+      description: The smallest manifest that reproduces it. Remove any secrets or private details.
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true

@@ -1,0 +1,24 @@
+Golem — Local-first MCP Security Testing Workbench
+Copyright 2026 Sriroop Chakraborty
+
+This project is dual-licensed. You may use, copy, modify and distribute it
+under the terms of EITHER of the following licenses, at your option:
+
+  * Apache License, Version 2.0 — see LICENSE-APACHE
+    or https://www.apache.org/licenses/LICENSE-2.0
+
+  * GNU General Public License, Version 3 — see LICENSE-GPL
+    or https://www.gnu.org/licenses/gpl-3.0.html
+
+SPDX-License-Identifier: Apache-2.0 OR GPL-3.0-only
+
+Unless required by applicable law or agreed to in writing, this software is
+distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+either express or implied. See the chosen license for the specific language
+governing permissions and limitations.
+
+Contributions
+-------------
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in this project shall be dual-licensed as above, without any
+additional terms or conditions.
