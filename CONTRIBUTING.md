@@ -2,6 +2,8 @@
 
 Thanks for helping make MCP servers safer! This guide explains how to set up the project, make a change and get it merged.
 
+Everyone taking part in this project is expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Table of Contents
 
 - [Ways to contribute](#ways-to-contribute)

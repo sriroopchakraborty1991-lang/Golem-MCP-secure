@@ -483,6 +483,7 @@ Golem-MCP-secure/
 ├── package.json                # npm workspaces root
 ├── SECURITY.md
 ├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
 ├── LICENSE                     # dual-license notice
 ├── LICENSE-APACHE
 ├── LICENSE-GPL
@@ -555,7 +556,7 @@ Backend test suites: `mcp`, `monitoring`, `password`, `runner-alert`, `scoring`.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read the [**Contributing Guide**](CONTRIBUTING.md) for setup, code style and how to add a scanner rule.
+Contributions are welcome! Please read the [**Contributing Guide**](CONTRIBUTING.md) for setup, code style and how to add a scanner rule, and follow our [**Code of Conduct**](CODE_OF_CONDUCT.md).
 
 1. Fork the repository and create a branch: `git checkout -b feat/my-change`
 2. Install dependencies: `npm install`
