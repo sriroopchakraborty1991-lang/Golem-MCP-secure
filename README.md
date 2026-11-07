@@ -533,7 +533,7 @@ Golem-MCP-secure/
 
 Backend test suites: `mcp`, `monitoring`, `password`, `runner-alert`, `scoring`.
 
-Every push and pull request runs the tests and a full build on Node 20 and 22 via [GitHub Actions](.github/workflows/tests.yml). The **tests** badge at the top shows the latest result.
+Every push and pull request runs the tests and a full build on Node 22 and 24 via [GitHub Actions](.github/workflows/tests.yml). The **tests** badge at the top shows the latest result.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
