@@ -9,6 +9,7 @@
 Register MCP servers · import tool manifests · run static + drift scans · export findings (JSON / PDF)
 
 <p>
+  <a href="https://github.com/sriroopchakraborty1991-lang/Golem-MCP-secure/actions/workflows/tests.yml"><img alt="Tests" src="https://img.shields.io/github/actions/workflow/status/sriroopchakraborty1991-lang/Golem-MCP-secure/tests.yml?branch=sri-rIN7eT&label=tests&logo=githubactions&logoColor=white&style=for-the-badge&labelColor=0B1020" /></a>
   <img alt="Status" src="https://img.shields.io/badge/status-MVP-20E3D2?style=for-the-badge&labelColor=0B1020" />
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0%20OR%20GPL--3.0-7C5CFF?style=for-the-badge&labelColor=0B1020" /></a>
   <a href="CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-FFB020?style=for-the-badge&labelColor=0B1020" /></a>
@@ -532,6 +533,8 @@ Golem-MCP-secure/
 
 Backend test suites: `mcp`, `monitoring`, `password`, `runner-alert`, `scoring`.
 
+Every push and pull request runs the tests and a full build on Node 20 and 22 via [GitHub Actions](.github/workflows/tests.yml). The **tests** badge at the top shows the latest result.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
@@ -548,7 +551,8 @@ Backend test suites: `mcp`, `monitoring`, `password`, `runner-alert`, `scoring`.
 - [ ] Fetch tool manifests directly from a running MCP server
 - [ ] Custom rule configuration (allowlists, severity overrides)
 - [ ] SARIF export for code-scanning integrations
-- [ ] GitHub Actions workflow with build and test badges
+- [x] GitHub Actions workflow with test badge
+- [ ] Lint and type-check steps in CI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
